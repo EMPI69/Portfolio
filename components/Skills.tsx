@@ -4,39 +4,23 @@ import { motion } from 'framer-motion'
 import { 
   SiReact,
   SiNextdotjs,
-  SiTypescript,
   SiJavascript,
   SiNodedotjs,
-  SiPython,
   SiHtml5,
   SiCss3,
   SiTailwindcss,
-  SiMongodb,
-  SiPostgresql,
-  SiGit,
-  SiGithub,
-  SiVercel,
-  SiExpress,
-  SiFirebase
+  SiCplusplus
 } from 'react-icons/si'
 
 const tools = [
-  { icon: SiReact, name: 'React' },
-  { icon: SiNextdotjs, name: 'Next.js' },
-  { icon: SiTypescript, name: 'TypeScript' },
+  { icon: SiHtml5, name: 'HTML' },
+  { icon: SiCss3, name: 'CSS' },
   { icon: SiJavascript, name: 'JavaScript' },
   { icon: SiNodedotjs, name: 'Node.js' },
-  { icon: SiPython, name: 'Python' },
-  { icon: SiHtml5, name: 'HTML5' },
-  { icon: SiCss3, name: 'CSS3' },
+  { icon: SiReact, name: 'React' },
+  { icon: SiNextdotjs, name: 'Next.js' },
   { icon: SiTailwindcss, name: 'Tailwind CSS' },
-  { icon: SiMongodb, name: 'MongoDB' },
-  { icon: SiPostgresql, name: 'PostgreSQL' },
-  { icon: SiGit, name: 'Git' },
-  { icon: SiGithub, name: 'GitHub' },
-  { icon: SiVercel, name: 'Vercel' },
-  { icon: SiExpress, name: 'Express' },
-  { icon: SiFirebase, name: 'Firebase' },
+  { icon: SiCplusplus, name: 'C++ (DSA)' },
 ]
 
 export default function Skills() {

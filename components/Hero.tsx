@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import TypingEffect from './TypingEffect'
 
 export default function Hero() {
@@ -27,11 +28,14 @@ export default function Hero() {
         className="relative mb-8"
       >
         <div className="w-48 h-48 md:w-64 md:h-64 rounded-full glow-purple bg-gradient-to-br from-purple-500/20 to-blue-500/20 flex items-center justify-center animate-float">
-          {/* Avatar placeholder - replace with actual avatar image */}
-          <div className="w-40 h-40 md:w-56 md:h-56 rounded-full bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center border-2 border-purple-500/50">
-            <svg className="w-24 h-24 md:w-32 md:h-32 text-purple-300" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-            </svg>
+          <div className="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-2 border-purple-500/50 relative">
+            <Image
+              src="/profile.jpg"
+              alt="Aditya Mishra"
+              fill
+              className="object-cover"
+              priority
+            />
           </div>
         </div>
       </motion.div>

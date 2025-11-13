@@ -31,10 +31,10 @@ export default function Contact() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: 0.4 }}
-        href="mailto:brhimoonswork@gmail.com"
+        href="mailto:adityamishra1337@gmail.com"
         className="text-purple-400 hover:text-purple-300 text-lg md:text-xl mb-8 inline-block transition-colors"
       >
-        brhimoonswork@gmail.com
+        adityamishra1337@gmail.com
       </motion.a>
 
       <motion.div
@@ -45,7 +45,7 @@ export default function Contact() {
         className="flex gap-4 mt-8"
       >
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/aditya-mishra-0b9667351"
           target="_blank"
           rel="noopener noreferrer"
           className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-900/30 to-blue-900/30 border-glow flex items-center justify-center hover:scale-110 transition-transform cursor-pointer"
@@ -53,7 +53,7 @@ export default function Contact() {
           <FaLinkedin className="w-6 h-6 text-white" />
         </a>
         <a
-          href="https://github.com"
+          href="https://github.com/EMPI69"
           target="_blank"
           rel="noopener noreferrer"
           className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-900/30 to-blue-900/30 border-glow flex items-center justify-center hover:scale-110 transition-transform cursor-pointer"
@@ -61,7 +61,7 @@ export default function Contact() {
           <FaGithub className="w-6 h-6 text-white" />
         </a>
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com/aaditya_69_?igsh=YXRjangzM2p3ZTFo"
           target="_blank"
           rel="noopener noreferrer"
           className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-900/30 to-blue-900/30 border-glow flex items-center justify-center hover:scale-110 transition-transform cursor-pointer"
