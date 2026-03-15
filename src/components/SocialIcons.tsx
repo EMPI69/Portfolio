@@ -59,12 +59,12 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href="https://github.com/adityamishra" target="_blank">
+          <a href="https://github.com/EMPI69" target="_blank">
             <FaGithub />
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com/in/aditya-mishra" target="_blank">
+          <a href="https://www.linkedin.com/in/aditya-mishra-0b9667351/" target="_blank">
             <FaLinkedinIn />
           </a>
         </span>
